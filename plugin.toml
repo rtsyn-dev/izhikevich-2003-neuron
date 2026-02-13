@@ -1,0 +1,7 @@
+name = "Izhikevich 2003 Neuron"
+kind = "izhikevich_2003_neuron"
+version = "0.1.0"
+description = "Plugin that implements Izhikevich (2003) neural model."
+library = "libizhikevich_2003_neuron_rust.so"
+
+api_version = 2

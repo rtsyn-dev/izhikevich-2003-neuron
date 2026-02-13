@@ -1,0 +1,11 @@
+[package]
+name = "izhikevich_2003_neuron_rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rtsyn_plugin = { path = "/home/seregio/Desktop/stuff/uni/master/TFM/rtsyn-plugin" }
+serde_json = "1"
